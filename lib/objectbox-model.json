@@ -1,0 +1,139 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:983676299882112559",
+      "lastPropertyId": "7:5949889014298789231",
+      "name": "Cancion",
+      "properties": [
+        {
+          "id": "1:6034761842725498864",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3600856080490133920",
+          "name": "nombre",
+          "type": 9
+        },
+        {
+          "id": "3:9147159310823617705",
+          "name": "artista",
+          "type": 9
+        },
+        {
+          "id": "4:1452469163631697486",
+          "name": "bpm",
+          "type": 9
+        },
+        {
+          "id": "5:3255078750714911198",
+          "name": "letra",
+          "type": 9
+        },
+        {
+          "id": "6:8825126755216440818",
+          "name": "favorito",
+          "type": 1
+        },
+        {
+          "id": "7:5949889014298789231",
+          "name": "setlist",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:293502841318451339",
+      "lastPropertyId": "13:2261695852774726090",
+      "name": "Preset",
+      "properties": [
+        {
+          "id": "1:2276510232960446395",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6238334892887038893",
+          "name": "nombre",
+          "type": 9
+        },
+        {
+          "id": "3:3313083517000983147",
+          "name": "param1",
+          "type": 9
+        },
+        {
+          "id": "4:7514324035948654508",
+          "name": "param2",
+          "type": 9
+        },
+        {
+          "id": "5:5074984394538975035",
+          "name": "param3",
+          "type": 9
+        },
+        {
+          "id": "6:5703025877794859072",
+          "name": "param4",
+          "type": 9
+        },
+        {
+          "id": "7:3462335221587865071",
+          "name": "param5",
+          "type": 9
+        },
+        {
+          "id": "8:2961050995034344324",
+          "name": "param6",
+          "type": 9
+        },
+        {
+          "id": "9:8267376326918286040",
+          "name": "param7",
+          "type": 9
+        },
+        {
+          "id": "10:8843935176951109859",
+          "name": "param8",
+          "type": 9
+        },
+        {
+          "id": "11:5499570736229389479",
+          "name": "param9",
+          "type": 9
+        },
+        {
+          "id": "12:3800357870528547656",
+          "name": "param10",
+          "type": 9
+        },
+        {
+          "id": "13:2261695852774726090",
+          "name": "cancionId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "1:1193179043462308152",
+          "relationTarget": "Cancion"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:293502841318451339",
+  "lastIndexId": "1:1193179043462308152",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
